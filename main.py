@@ -51,7 +51,7 @@ def resize_image(input_im,output_im,new_w,new_h):
 
 #test
 input_image='hill.jpeg'
-output_image='/home/manu/Desktop/SCAV/resized_image.jpeg'
+output_image='resized_image.jpeg'
 new_width=640
 new_height=480
 
@@ -132,7 +132,7 @@ def transform_to_bw_and_compress(input_path, output_path, quality=0):
 
 # Example :
 input_image = 'hill.jpeg'  # Replace with the path to your input image
-output_image = '/home/manu/Desktop/SCAV/bw_image.jpeg'  # Replace with the path where you want to save the black and white image
+output_image = 'bw_image.jpeg'  # Replace with the path where you want to save the black and white image
 compression_quality = 1  # Adjust quality (0-51) to maximize compression (lower quality means higher compression)
 
 transform_to_bw_and_compress(input_image, output_image, compression_quality)
