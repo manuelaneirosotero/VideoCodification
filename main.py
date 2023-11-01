@@ -37,6 +37,7 @@ print(x)
 #calls ffmpeg to resize image
 def resize_image(input_im,output_im,new_w,new_h):
 
+
     ffmpeg_command = [
         'ffmpeg',
         '-i', input_im,
